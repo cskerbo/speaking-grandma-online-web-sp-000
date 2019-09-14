@@ -1,5 +1,3 @@
-require 'pry'
-
 def speak_to_grandma(user_input)
   puts "Say something to grandma!"
   user_input = gets.strip
