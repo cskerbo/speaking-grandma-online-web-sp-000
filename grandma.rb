@@ -1,5 +1,5 @@
 def speak_to_grandma(user_input)
-  gets.user_input
+  user_input = gets.strip
 end
 
 
