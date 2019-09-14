@@ -1,7 +1,7 @@
-def speak_to_grandma(user_input)
+def speak_to_grandma(phrase)
   puts "Say something to grandma!"
-  user_input = gets.strip
-  if user_input.downcase? == true
+  phrase = gets.strip
+  if phrase.downcase? == true
     puts "HUH?! SPEAK UP, SONNY!"
   end
 end
