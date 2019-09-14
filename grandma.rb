@@ -1,5 +1,8 @@
 def speak_to_grandma(user_input)
   user_input = gets.strip
+  if user_input.downcase? == true
+    puts "HUH?! SPEAK UP, SONNY!"
+  end
 end
 
 
